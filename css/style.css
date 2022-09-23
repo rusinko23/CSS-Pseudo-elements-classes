@@ -1,0 +1,128 @@
+@import url(reset.css);
+
+.container {
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 30px;
+}
+.container__list1 {
+}
+.continer-list1__4 {
+   margin: 0px 0px 82px 0px;
+}
+.continer-list1__4 li::before {
+   content: '';
+   display:  inline-block;
+   background: url(/img/check_icon.png) left no-repeat;
+   width: 25px;
+   height: 19px;
+   margin: 0px 13px 0px 0px;
+  
+
+
+}
+.continer-list1__4 li {
+   margin: 0px 0px 16px 0px;
+}
+.continer-list1__4 li:nth-child(1) {
+   font-weight: 400;
+   text-decoration: line-through;
+}
+.continer-list1__4 li:nth-child(2) {
+   font-weight: bold;
+}
+.continer-list1__4 li:nth-child(3) {
+   font-weight: 400;
+   font-style: italic;
+}
+.continer-list1__4 li:nth-child(4) {
+   text-transform: uppercase;
+   font-weight: 400;
+   
+}
+
+.continer-list1__4 li:hover { 
+   filter: invert(24%) sepia(91%) saturate(7364%) hue-rotate(358deg) brightness(108%) contrast(122%);
+   
+}
+
+
+
+
+
+
+.container__buttons {
+   margin: 0px 0px 82px 0px;
+}
+.container__buttons a {
+   color: #ffffff;
+   font-size: 14px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+}
+.button-link__state {
+   display: block;
+   background-color: #80b7b3;
+   width: 199px;
+   height: 44px;
+   box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+   text-align: center;
+   line-height: 44px;
+   border-radius: 40px;
+}
+.button-link__state::after {
+   content: '';
+   display: inline-block;
+   background: url(/img/arrow\ right.svg) right no-repeat;
+   width: 21px;
+   height: 19px;
+   margin: 0px 0px -4px 10px;
+}
+
+.button-link__state:hover {
+   background-color: #3a5856;
+}
+.button-link__state:active {
+   background-color: #818181;
+}
+
+
+.container__forms {
+   margin: 0px 0px 82px 0px;
+}
+.textinput {
+   width: 292px;
+   height: 50px;
+   border: 1px solid #b0b0b0;
+   padding: 0px 15px;
+}
+.textinput:focus {
+   box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+   border: 1px solid #7fbed5;
+}
+
+
+
+.container__text {
+   max-width: 850px;
+}
+.container__text p {
+   margin: 0px 0px 45px 0px
+}
+.first__text {
+   color: #000000;
+   font-weight: 400;
+}
+.first__text::first-line {
+   color: red;
+}
+.secont__text {
+   color: #000000;
+   font-weight: 400;
+}
+.secont__text::first-letter {
+   color: #ff0000;
+font-size: 25px;
+
+}

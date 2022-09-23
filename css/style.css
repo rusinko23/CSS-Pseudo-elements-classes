@@ -13,7 +13,7 @@
 .continer-list1__4 li::before {
    content: '';
    display:  inline-block;
-   background: url(img/check_icon.png) left no-repeat;
+   background: url(../img/check_icon.png) left no-repeat;
    width: 25px;
    height: 19px;
    margin: 0px 13px 0px 0px;
@@ -74,7 +74,7 @@
 .button-link__state::after {
    content: '';
    display: inline-block;
-   background: url(img/arrow right.svg) right no-repeat;
+   background: url(../img/arrow right.svg) right no-repeat;
    width: 21px;
    height: 19px;
    margin: 0px 0px -4px 10px;
